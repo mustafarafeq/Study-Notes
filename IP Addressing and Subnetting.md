@@ -18,3 +18,4 @@ Since there are only 2 possible values in Binary, 1 & 0, and 32 bits total in an
 
  4. Using this method, go down the octet list and subtract the highest power of 2 from the REMAINDER each time and determine the binary digit. If you CAN subtract from it without getting a negative number, designate the binary digit 1, if you CANNOT, binary digit = 0.
 
+![alt text](conversion.jpg)
