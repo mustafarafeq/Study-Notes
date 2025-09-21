@@ -19,3 +19,18 @@ Since there are only 2 possible values in Binary, 1 & 0, and 32 bits total in an
  4. Using this method, go down the octet list and subtract the highest power of 2 from the REMAINDER each time and determine the binary digit. If you CAN subtract from it without getting a negative number, designate the binary digit 1, if you CANNOT, binary digit = 0.
 
 ![alt text](conversion.jpg)
+
+
+# Subnetting
+ Subnetting is the process of dividing or breaking a larger network down into smaller networks. This is good for security and efficiency.
+
+ ## CIDR - Classless Inter-Domain Routing
+
+ - Defines a way of expressing the size of a network by use of prefixes. (/16, /20, /25, etc)
+ - The prefix determines which portion of the octet bits are used for the network portion of the IP address and the rest are used to denote the host portion (devices)
+
+Example: /16 = First 16 bits (192.67.0.0/16) are used for the network portion so that would be the 192.67
+
+- Larger prefix = Smaller network
+
+By general rule of thumb, if you were to increase the value of the prefix by 1, lets use /16 -> /17, that would mean that one /16 network is equal to 2 x /17 networks.
