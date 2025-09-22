@@ -34,3 +34,30 @@ Example: /16 = First 16 bits (192.67.0.0/16) are used for the network portion so
 - Larger prefix = Smaller network
 
 By general rule of thumb, if you were to increase the value of the prefix by 1, lets use /16 -> /17, that would mean that one /16 network is equal to 2 x /17 networks.
+
+
+# Converting Binary to Decimal
+
+Use the position table to convert both ways! Decimal <-> Binary
+
+| Position| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+| Binary Position Value | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+| Binary Digit | use this field when converting decimal to binary
+
+Take the example of 133.33.33.7
+
+Starting from left to right:
+
+- Compare decimal number (133) to Binary Position Value from above table. If the decimal number is SMALLER, write 0 in the Binary Digit and move on to the next binary position value.
+
+- If decimal number is EQUAL OR LARGER than the binary position value, write a 1 in the Binary Digit and subtract your binary position value from your decimal number which is the remainder you will use for the rest of the steps.
+
+- Rinse and repeat for the remaining values. 
+
+To convert Binary to Decimal, 
+
+Where ever there is a 1, determine the binary position value of that 1 and write the number in place of the 1 then add them all together to get the Decimal number. 
+
+for example, 133 in Binary is 10000101
+
+Using the table above, we can see that there are three 1's in this binary number. they are at the 128, 4, and 1 positions. 128 + 4 + 1 = 133 = Decimal Number.
