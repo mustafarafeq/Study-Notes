@@ -52,3 +52,7 @@ After the above script is ran successfully, the terminal will first print the gr
 - You will notice that in the terminal, when it asks for your name, and you **input** your response, there is no space between "What's your name?" and where you type. This can be remedied by adding '\n' to end of your input before the final quotation.
     - (What's your name?\n)
     - \n is a special character for a new line.
+
+### Boolean
+
+Can store either a ***True*** or ***False*** value.
