@@ -51,3 +51,7 @@ A loop would allow us to do this. We can use the ***for*** statement.
 ![alt text](image-5.png)
 
 **Notice** how the print statement is indented, that is because it is the code block we want to be repeated inside the loop just like an ***if*** statement.
+
+
+
+![alt text](image-7.png)
