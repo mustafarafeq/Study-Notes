@@ -18,3 +18,5 @@ Within cloud environments like AWS, BGP is referred to as either:
 - eBGP = external BGP = Routing between an Autonomous System
 
 In Summary: BGP is a routine protocol (protocol = set of software rules) that advertises the shortest path between or within AS's. It is what Direct Connect and Dynamic VPNS use in AWS.
+
+#testing is this line goes into github
